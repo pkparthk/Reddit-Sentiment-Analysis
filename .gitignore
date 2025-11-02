@@ -5,6 +5,7 @@ __pycache__/
 
 # Virtual environment
 venv/
+.venv/
 
 
 # IDE/editor configs
@@ -24,3 +25,5 @@ comments.json
 comments.txt
 
 spark-defaults.conf
+pipeline.log
+pyspark_pipeline.log
