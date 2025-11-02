@@ -1,0 +1,372 @@
+2025-11-02 16:15:35,726 - __main__ - INFO - Initializing Pipeline: pipeline_1762080335
+2025-11-02 16:15:35,726 - __main__ - INFO - PySpark Available: True
+2025-11-02 16:15:35,727 - __main__ - INFO - ML Available: True
+2025-11-02 16:15:35,727 - __main__ - INFO - Starting Integrated Reddit Sentiment Analysis Pipeline
+2025-11-02 16:15:35,727 - __main__ - INFO - ============================================================
+2025-11-02 16:15:35,727 - __main__ - INFO - Attempting to initialize Spark...
+2025-11-02 16:15:42,522 - __main__ - INFO - Spark initialized successfully
+2025-11-02 16:15:42,523 - __main__ - INFO - Loading BERT sentiment model...
+2025-11-02 16:15:42,523 - __main__ - WARNING - Failed to load BERT model: 'sentiment'
+2025-11-02 16:15:42,524 - __main__ - INFO - Using simple sentiment fallback
+2025-11-02 16:15:42,524 - __main__ - INFO - Fetching Reddit comments using fetch.js...
+2025-11-02 16:15:42,525 - __main__ - ERROR - Error executing fetch.js: 'timeout'
+2025-11-02 16:15:42,525 - __main__ - ERROR - Failed to fetch Reddit data
+2025-11-02 16:15:42,801 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-11-02 16:17:20,198 - __main__ - INFO - Initializing Pipeline: pipeline_1762080440
+2025-11-02 16:17:20,200 - __main__ - INFO - PySpark Available: True
+2025-11-02 16:17:20,200 - __main__ - INFO - ML Available: True
+2025-11-02 16:17:20,200 - __main__ - INFO - Starting Integrated Reddit Sentiment Analysis Pipeline
+2025-11-02 16:17:20,201 - __main__ - INFO - ============================================================
+2025-11-02 16:17:20,201 - __main__ - INFO - Attempting to initialize Spark...
+2025-11-02 16:17:31,723 - __main__ - INFO - Spark initialized successfully
+2025-11-02 16:17:31,724 - __main__ - INFO - Loading BERT sentiment model...
+2025-11-02 16:17:31,725 - __main__ - WARNING - Failed to load BERT model: 'sentiment'
+2025-11-02 16:17:31,725 - __main__ - INFO - Using simple sentiment fallback
+2025-11-02 16:17:31,726 - __main__ - INFO - Using existing Reddit data: comments.json
+2025-11-02 16:17:31,726 - __main__ - INFO - Loading Reddit data...
+2025-11-02 16:17:31,726 - __main__ - INFO - Loading: comments.json
+2025-11-02 16:17:31,740 - __main__ - INFO - Loaded 23 comments
+2025-11-02 16:17:31,741 - __main__ - INFO - Preprocessing data...
+2025-11-02 16:17:31,773 - __main__ - INFO - Preprocessed 23 comments
+2025-11-02 16:17:31,774 - __main__ - INFO - Performing sentiment analysis...
+2025-11-02 16:17:31,775 - __main__ - ERROR - Error in sentiment analysis: 'sentiment'
+2025-11-02 16:17:31,776 - __main__ - INFO - Analyzing results...
+2025-11-02 16:17:31,788 - __main__ - ERROR - Error in analytics: Column 'confidence_score' has dtype object, cannot use method 'nlargest' with this dtype
+2025-11-02 16:17:31,789 - __main__ - INFO - Saving results...
+2025-11-02 16:17:31,790 - __main__ - ERROR - Error saving results: 'output'
+2025-11-02 16:17:31,793 - __main__ - INFO - Pipeline completed successfully!
+2025-11-02 16:17:32,354 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-11-02 16:18:31,089 - __main__ - INFO - Initializing Pipeline: pipeline_1762080511
+2025-11-02 16:18:31,089 - __main__ - INFO - PySpark Available: True
+2025-11-02 16:18:31,090 - __main__ - INFO - ML Available: True
+2025-11-02 16:18:31,090 - __main__ - INFO - Starting Integrated Reddit Sentiment Analysis Pipeline
+2025-11-02 16:18:31,090 - __main__ - INFO - ============================================================
+2025-11-02 16:18:31,090 - __main__ - INFO - Attempting to initialize Spark...
+2025-11-02 16:18:37,330 - __main__ - INFO - Spark initialized successfully
+2025-11-02 16:18:37,331 - __main__ - INFO - Loading BERT sentiment model...
+2025-11-02 16:18:37,332 - __main__ - WARNING - Failed to load BERT model: 'sentiment'
+2025-11-02 16:18:37,332 - __main__ - INFO - Using simple sentiment fallback
+2025-11-02 16:18:37,332 - __main__ - INFO - Using existing Reddit data: comments.json
+2025-11-02 16:18:37,332 - __main__ - INFO - Loading Reddit data...
+2025-11-02 16:18:37,333 - __main__ - INFO - Loading: comments.json
+2025-11-02 16:18:37,339 - __main__ - INFO - Loaded 23 comments
+2025-11-02 16:18:37,340 - __main__ - INFO - Preprocessing data...
+2025-11-02 16:18:37,345 - __main__ - INFO - Preprocessed 23 comments
+2025-11-02 16:18:37,345 - __main__ - INFO - Performing sentiment analysis...
+2025-11-02 16:18:37,347 - __main__ - ERROR - Error in sentiment analysis: 'sentiment'
+2025-11-02 16:18:37,348 - __main__ - INFO - Analyzing results...
+2025-11-02 16:18:37,357 - __main__ - INFO - Analytics completed
+2025-11-02 16:18:37,358 - __main__ - INFO - Saving results...
+2025-11-02 16:18:37,371 - __main__ - INFO - Detailed results saved to output/
+2025-11-02 16:18:37,373 - __main__ - INFO - Analytics summary saved to output/
+2025-11-02 16:18:37,374 - __main__ - INFO - Results saved successfully
+2025-11-02 16:18:37,376 - __main__ - INFO - Pipeline completed successfully!
+2025-11-02 16:18:37,626 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-11-02 16:19:29,215 - __main__ - INFO - Initializing Pipeline: pipeline_1762080569
+2025-11-02 16:19:29,216 - __main__ - INFO - PySpark Available: True
+2025-11-02 16:19:29,216 - __main__ - INFO - ML Available: True
+2025-11-02 16:19:29,217 - __main__ - INFO - Starting Integrated Reddit Sentiment Analysis Pipeline
+2025-11-02 16:19:29,217 - __main__ - INFO - ============================================================
+2025-11-02 16:19:29,217 - __main__ - INFO - Attempting to initialize Spark...
+2025-11-02 16:19:35,527 - __main__ - INFO - Spark initialized successfully
+2025-11-02 16:19:35,527 - __main__ - INFO - Attempting to use existing analyzer.py model...
+2025-11-02 16:19:36,381 - __main__ - WARNING - Could not load existing analyzer: Analyzer.__init__() missing 2 required positional arguments: 'will_train' and 'args'
+2025-11-02 16:19:36,381 - __main__ - INFO - Loading BERT sentiment model directly...
+2025-11-02 16:19:36,381 - __main__ - WARNING - Failed to load BERT model: 'sentiment'
+2025-11-02 16:19:36,382 - __main__ - INFO - Using simple sentiment fallback
+2025-11-02 16:19:36,382 - __main__ - INFO - Using existing Reddit data: comments.json
+2025-11-02 16:19:36,382 - __main__ - INFO - Loading Reddit data...
+2025-11-02 16:19:36,383 - __main__ - INFO - Loading: comments.json
+2025-11-02 16:19:36,389 - __main__ - INFO - Loaded 23 comments
+2025-11-02 16:19:36,389 - __main__ - INFO - Preprocessing data...
+2025-11-02 16:19:36,403 - __main__ - INFO - Preprocessed 23 comments
+2025-11-02 16:19:36,404 - __main__ - INFO - Performing sentiment analysis...
+2025-11-02 16:19:36,405 - __main__ - ERROR - Error in sentiment analysis: 'sentiment'
+2025-11-02 16:19:36,407 - __main__ - INFO - Analyzing results...
+2025-11-02 16:19:36,416 - __main__ - INFO - Analytics completed
+2025-11-02 16:19:36,417 - __main__ - INFO - Saving results...
+2025-11-02 16:19:36,426 - __main__ - INFO - Detailed results saved to output/
+2025-11-02 16:19:36,428 - __main__ - INFO - Analytics summary saved to output/
+2025-11-02 16:19:36,428 - __main__ - INFO - Results saved successfully
+2025-11-02 16:19:36,430 - __main__ - INFO - Pipeline completed successfully!
+2025-11-02 16:19:36,865 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-11-02 16:20:27,513 - __main__ - INFO - Initializing Pipeline: pipeline_1762080627
+2025-11-02 16:20:27,514 - __main__ - INFO - PySpark Available: True
+2025-11-02 16:20:27,514 - __main__ - INFO - ML Available: True
+2025-11-02 16:20:27,514 - __main__ - INFO - Starting Integrated Reddit Sentiment Analysis Pipeline
+2025-11-02 16:20:27,514 - __main__ - INFO - ============================================================
+2025-11-02 16:20:27,515 - __main__ - INFO - Attempting to initialize Spark...
+2025-11-02 16:20:35,412 - __main__ - INFO - Spark initialized successfully
+2025-11-02 16:20:35,412 - __main__ - INFO - Attempting to use existing analyzer.py model...
+2025-11-02 16:20:40,075 - __main__ - WARNING - Could not load existing analyzer: 'SimpleArgs' object has no attribute 'output_dir'
+2025-11-02 16:20:40,098 - __main__ - INFO - Loading BERT sentiment model directly...
+2025-11-02 16:20:40,099 - __main__ - WARNING - Failed to load BERT model: 'sentiment'
+2025-11-02 16:20:40,100 - __main__ - INFO - Using simple sentiment fallback
+2025-11-02 16:20:40,100 - __main__ - INFO - Using existing Reddit data: comments.json
+2025-11-02 16:20:40,101 - __main__ - INFO - Loading Reddit data...
+2025-11-02 16:20:40,101 - __main__ - INFO - Loading: comments.json
+2025-11-02 16:20:40,130 - __main__ - INFO - Loaded 23 comments
+2025-11-02 16:20:40,130 - __main__ - INFO - Preprocessing data...
+2025-11-02 16:20:40,175 - __main__ - INFO - Preprocessed 23 comments
+2025-11-02 16:20:40,176 - __main__ - INFO - Performing sentiment analysis...
+2025-11-02 16:20:40,177 - __main__ - ERROR - Error in sentiment analysis: 'sentiment'
+2025-11-02 16:20:40,182 - __main__ - INFO - Analyzing results...
+2025-11-02 16:20:40,207 - __main__ - INFO - Analytics completed
+2025-11-02 16:20:40,208 - __main__ - INFO - Saving results...
+2025-11-02 16:20:40,230 - __main__ - INFO - Detailed results saved to output/
+2025-11-02 16:20:40,232 - __main__ - INFO - Analytics summary saved to output/
+2025-11-02 16:20:40,232 - __main__ - INFO - Results saved successfully
+2025-11-02 16:20:40,235 - __main__ - INFO - Pipeline completed successfully!
+2025-11-02 16:20:41,002 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-11-02 16:21:24,449 - __main__ - INFO - Initializing Pipeline: pipeline_1762080684
+2025-11-02 16:21:24,450 - __main__ - INFO - PySpark Available: True
+2025-11-02 16:21:24,450 - __main__ - INFO - ML Available: True
+2025-11-02 16:21:24,450 - __main__ - INFO - Starting Integrated Reddit Sentiment Analysis Pipeline
+2025-11-02 16:21:24,451 - __main__ - INFO - ============================================================
+2025-11-02 16:21:24,451 - __main__ - INFO - Attempting to initialize Spark...
+2025-11-02 16:21:30,327 - __main__ - INFO - Spark initialized successfully
+2025-11-02 16:21:30,327 - __main__ - INFO - Attempting to use existing analyzer.py model...
+2025-11-02 16:21:34,862 - __main__ - INFO - Successfully loaded existing analyzer model
+2025-11-02 16:21:34,865 - __main__ - INFO - Using existing Reddit data: comments.json
+2025-11-02 16:21:34,865 - __main__ - INFO - Loading Reddit data...
+2025-11-02 16:21:34,867 - __main__ - INFO - Loading: comments.json
+2025-11-02 16:21:34,890 - __main__ - INFO - Loaded 23 comments
+2025-11-02 16:21:34,890 - __main__ - INFO - Preprocessing data...
+2025-11-02 16:21:34,927 - __main__ - INFO - Preprocessed 23 comments
+2025-11-02 16:21:34,927 - __main__ - INFO - Performing sentiment analysis...
+2025-11-02 16:21:34,928 - __main__ - ERROR - Error in sentiment analysis: 'sentiment'
+2025-11-02 16:21:34,930 - __main__ - INFO - Analyzing results...
+2025-11-02 16:21:34,946 - __main__ - INFO - Analytics completed
+2025-11-02 16:21:34,946 - __main__ - INFO - Saving results...
+2025-11-02 16:21:34,963 - __main__ - INFO - Detailed results saved to output/
+2025-11-02 16:21:34,964 - __main__ - INFO - Analytics summary saved to output/
+2025-11-02 16:21:34,964 - __main__ - INFO - Results saved successfully
+2025-11-02 16:21:34,966 - __main__ - INFO - Pipeline completed successfully!
+2025-11-02 16:21:35,619 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-11-02 16:22:18,445 - __main__ - INFO - Initializing Pipeline: pipeline_1762080738
+2025-11-02 16:22:18,445 - __main__ - INFO - PySpark Available: True
+2025-11-02 16:22:18,445 - __main__ - INFO - ML Available: True
+2025-11-02 16:22:18,446 - __main__ - INFO - Starting Integrated Reddit Sentiment Analysis Pipeline
+2025-11-02 16:22:18,447 - __main__ - INFO - ============================================================
+2025-11-02 16:22:18,447 - __main__ - INFO - Attempting to initialize Spark...
+2025-11-02 16:22:24,431 - __main__ - INFO - Spark initialized successfully
+2025-11-02 16:22:24,432 - __main__ - INFO - Attempting to use existing analyzer.py model...
+2025-11-02 16:22:28,645 - __main__ - INFO - Successfully loaded existing analyzer model
+2025-11-02 16:22:28,645 - __main__ - INFO - Using existing Reddit data: comments.json
+2025-11-02 16:22:28,645 - __main__ - INFO - Loading Reddit data...
+2025-11-02 16:22:28,647 - __main__ - INFO - Loading: comments.json
+2025-11-02 16:22:28,651 - __main__ - INFO - Loaded 23 comments
+2025-11-02 16:22:28,651 - __main__ - INFO - Preprocessing data...
+2025-11-02 16:22:28,662 - __main__ - INFO - Preprocessed 23 comments
+2025-11-02 16:22:28,663 - __main__ - INFO - Performing sentiment analysis...
+2025-11-02 16:22:30,115 - __main__ - INFO - Processed batch 1/3
+2025-11-02 16:22:31,104 - __main__ - INFO - Processed batch 2/3
+2025-11-02 16:22:31,691 - __main__ - INFO - Processed batch 3/3
+2025-11-02 16:22:31,696 - __main__ - INFO - Sentiment analysis completed: 23 results
+2025-11-02 16:22:31,697 - __main__ - INFO - Analyzing results...
+2025-11-02 16:22:31,723 - __main__ - INFO - Analytics completed
+2025-11-02 16:22:31,723 - __main__ - INFO - Saving results...
+2025-11-02 16:22:31,735 - __main__ - INFO - Detailed results saved to output/
+2025-11-02 16:22:31,736 - __main__ - INFO - Analytics summary saved to output/
+2025-11-02 16:22:31,737 - __main__ - INFO - Results saved successfully
+2025-11-02 16:22:31,740 - __main__ - INFO - Pipeline completed successfully!
+2025-11-02 16:22:31,925 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-11-02 16:34:51,750 - __main__ - INFO - Initializing Pipeline: pipeline_1762081491
+2025-11-02 16:34:51,751 - __main__ - INFO - PySpark Available: True
+2025-11-02 16:34:51,751 - __main__ - INFO - ML Available: True
+2025-11-02 16:34:51,751 - __main__ - INFO - Starting Integrated Reddit Sentiment Analysis Pipeline
+2025-11-02 16:34:51,751 - __main__ - INFO - ============================================================
+2025-11-02 16:34:51,751 - __main__ - INFO - Attempting to initialize Spark...
+2025-11-02 16:34:58,234 - __main__ - INFO - Spark initialized successfully
+2025-11-02 16:34:58,234 - __main__ - INFO - Attempting to use existing analyzer.py model...
+2025-11-02 16:35:03,097 - __main__ - INFO - Successfully loaded existing analyzer model
+2025-11-02 16:35:03,100 - __main__ - INFO - Using existing Reddit data: comments.json
+2025-11-02 16:35:03,100 - __main__ - INFO - Loading Reddit data...
+2025-11-02 16:35:03,101 - __main__ - INFO - Loading: comments.json
+2025-11-02 16:35:03,130 - __main__ - INFO - Loaded 23 comments
+2025-11-02 16:35:03,131 - __main__ - INFO - Preprocessing data...
+2025-11-02 16:35:03,174 - __main__ - INFO - Preprocessed 23 comments
+2025-11-02 16:35:03,175 - __main__ - INFO - Performing sentiment analysis...
+2025-11-02 16:35:05,312 - __main__ - INFO - Processed batch 1/3
+2025-11-02 16:35:06,335 - __main__ - INFO - Processed batch 2/3
+2025-11-02 16:35:06,982 - __main__ - INFO - Processed batch 3/3
+2025-11-02 16:35:06,988 - __main__ - INFO - Sentiment analysis completed: 23 results
+2025-11-02 16:35:06,988 - __main__ - INFO - Analyzing results...
+2025-11-02 16:35:07,024 - __main__ - INFO - Analytics completed
+2025-11-02 16:35:07,025 - __main__ - INFO - Saving results...
+2025-11-02 16:35:07,041 - __main__ - INFO - Detailed results saved to output/
+2025-11-02 16:35:07,043 - __main__ - INFO - Analytics summary saved to output/
+2025-11-02 16:35:07,044 - __main__ - INFO - Results saved successfully
+2025-11-02 16:35:07,046 - __main__ - INFO - Pipeline completed successfully!
+2025-11-02 16:35:07,485 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-11-02 16:36:00,089 - __main__ - INFO - Initializing Pipeline: pipeline_1762081560
+2025-11-02 16:36:00,091 - __main__ - INFO - PySpark Available: True
+2025-11-02 16:36:00,091 - __main__ - INFO - ML Available: True
+2025-11-02 16:36:00,091 - __main__ - INFO - Starting Integrated Reddit Sentiment Analysis Pipeline
+2025-11-02 16:36:00,091 - __main__ - INFO - ============================================================
+2025-11-02 16:36:00,092 - __main__ - INFO - Attempting to initialize Spark...
+2025-11-02 16:36:07,380 - __main__ - INFO - Spark initialized successfully
+2025-11-02 16:36:07,381 - __main__ - INFO - Attempting to use existing analyzer.py model...
+2025-11-02 16:36:11,783 - __main__ - INFO - Successfully loaded existing analyzer model
+2025-11-02 16:36:11,784 - __main__ - INFO - Using existing Reddit data: comments.json
+2025-11-02 16:36:11,784 - __main__ - INFO - Loading Reddit data...
+2025-11-02 16:36:11,785 - __main__ - INFO - Loading: comments.json
+2025-11-02 16:36:11,791 - __main__ - INFO - Loaded 23 comments
+2025-11-02 16:36:11,791 - __main__ - INFO - Preprocessing data...
+2025-11-02 16:36:11,807 - __main__ - INFO - Preprocessed 23 comments
+2025-11-02 16:36:11,807 - __main__ - INFO - Performing sentiment analysis...
+2025-11-02 16:36:13,275 - __main__ - INFO - Processed batch 1/3
+2025-11-02 16:36:14,232 - __main__ - INFO - Processed batch 2/3
+2025-11-02 16:36:14,812 - __main__ - INFO - Processed batch 3/3
+2025-11-02 16:36:14,815 - __main__ - INFO - Sentiment analysis completed: 23 results
+2025-11-02 16:36:14,817 - __main__ - INFO - Analyzing results...
+2025-11-02 16:36:14,845 - __main__ - INFO - Analytics completed
+2025-11-02 16:36:14,845 - __main__ - INFO - Saving results...
+2025-11-02 16:36:14,857 - __main__ - INFO - Detailed results saved to output/
+2025-11-02 16:36:14,858 - __main__ - INFO - Analytics summary saved to output/
+2025-11-02 16:36:14,859 - __main__ - INFO - Results saved successfully
+2025-11-02 16:36:14,862 - __main__ - INFO - Pipeline completed successfully!
+2025-11-02 16:36:15,432 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-11-02 16:39:18,408 - simple_integrated_pipeline - INFO - Initializing Pipeline: pipeline_1762081758
+2025-11-02 16:39:18,409 - simple_integrated_pipeline - INFO - PySpark Available: True
+2025-11-02 16:39:18,409 - simple_integrated_pipeline - INFO - ML Available: True
+2025-11-02 16:39:18,409 - simple_integrated_pipeline - INFO - Starting Integrated Reddit Sentiment Analysis Pipeline
+2025-11-02 16:39:18,410 - simple_integrated_pipeline - INFO - ============================================================
+2025-11-02 16:39:18,410 - simple_integrated_pipeline - INFO - Attempting to initialize Spark...
+2025-11-02 16:39:24,669 - simple_integrated_pipeline - INFO - Spark initialized successfully
+2025-11-02 16:39:24,670 - simple_integrated_pipeline - INFO - Attempting to use existing analyzer.py model...
+2025-11-02 16:39:28,943 - simple_integrated_pipeline - INFO - Successfully loaded existing analyzer model
+2025-11-02 16:39:28,944 - simple_integrated_pipeline - INFO - Using existing Reddit data: comments.json
+2025-11-02 16:39:28,944 - simple_integrated_pipeline - INFO - Loading Reddit data...
+2025-11-02 16:39:28,945 - simple_integrated_pipeline - INFO - Loading: comments.json
+2025-11-02 16:39:28,959 - simple_integrated_pipeline - INFO - Loaded 23 comments
+2025-11-02 16:39:28,960 - simple_integrated_pipeline - INFO - Preprocessing data...
+2025-11-02 16:39:28,983 - simple_integrated_pipeline - INFO - Preprocessed 23 comments
+2025-11-02 16:39:28,983 - simple_integrated_pipeline - INFO - Performing sentiment analysis...
+2025-11-02 16:39:30,627 - simple_integrated_pipeline - INFO - Processed batch 1/3
+2025-11-02 16:39:31,678 - simple_integrated_pipeline - INFO - Processed batch 2/3
+2025-11-02 16:39:32,233 - simple_integrated_pipeline - INFO - Processed batch 3/3
+2025-11-02 16:39:32,239 - simple_integrated_pipeline - INFO - Sentiment analysis completed: 23 results
+2025-11-02 16:39:32,239 - simple_integrated_pipeline - INFO - Analyzing results...
+2025-11-02 16:39:32,272 - simple_integrated_pipeline - INFO - Analytics completed
+2025-11-02 16:39:32,273 - simple_integrated_pipeline - INFO - Saving results...
+2025-11-02 16:39:32,283 - simple_integrated_pipeline - INFO - Detailed results saved to output/
+2025-11-02 16:39:32,285 - simple_integrated_pipeline - INFO - Analytics summary saved to output/
+2025-11-02 16:39:32,285 - simple_integrated_pipeline - INFO - Results saved successfully
+2025-11-02 16:39:32,290 - simple_integrated_pipeline - INFO - Pipeline completed successfully!
+2025-11-02 16:39:32,911 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-11-02 16:41:48,667 - simple_integrated_pipeline - INFO - Initializing Pipeline: pipeline_1762081908
+2025-11-02 16:41:48,667 - simple_integrated_pipeline - INFO - PySpark Available: True
+2025-11-02 16:41:48,668 - simple_integrated_pipeline - INFO - ML Available: True
+2025-11-02 16:42:51,356 - simple_integrated_pipeline - INFO - Initializing Pipeline: pipeline_1762081971
+2025-11-02 16:42:51,356 - simple_integrated_pipeline - INFO - PySpark Available: True
+2025-11-02 16:42:51,358 - simple_integrated_pipeline - INFO - ML Available: True
+2025-11-02 16:42:51,358 - simple_integrated_pipeline - INFO - Starting Integrated Reddit Sentiment Analysis Pipeline
+2025-11-02 16:42:51,358 - simple_integrated_pipeline - INFO - ============================================================
+2025-11-02 16:42:51,358 - simple_integrated_pipeline - INFO - Attempting to initialize Spark...
+2025-11-02 16:42:57,505 - simple_integrated_pipeline - INFO - Spark initialized successfully
+2025-11-02 16:42:57,505 - simple_integrated_pipeline - INFO - Attempting to use existing analyzer.py model...
+2025-11-02 16:43:02,028 - simple_integrated_pipeline - INFO - Successfully loaded existing analyzer model
+2025-11-02 16:43:02,028 - simple_integrated_pipeline - INFO - Using existing Reddit data: comments.json
+2025-11-02 16:43:02,029 - simple_integrated_pipeline - INFO - Loading Reddit data...
+2025-11-02 16:43:02,029 - simple_integrated_pipeline - INFO - Loading: comments.json
+2025-11-02 16:43:02,046 - simple_integrated_pipeline - INFO - Loaded 23 comments
+2025-11-02 16:43:02,046 - simple_integrated_pipeline - INFO - Preprocessing data...
+2025-11-02 16:43:02,078 - simple_integrated_pipeline - INFO - Preprocessed 23 comments
+2025-11-02 16:43:02,080 - simple_integrated_pipeline - INFO - Performing sentiment analysis...
+2025-11-02 16:43:03,924 - simple_integrated_pipeline - INFO - Processed batch 1/3
+2025-11-02 16:43:04,879 - simple_integrated_pipeline - INFO - Processed batch 2/3
+2025-11-02 16:43:05,526 - simple_integrated_pipeline - INFO - Processed batch 3/3
+2025-11-02 16:43:05,530 - simple_integrated_pipeline - INFO - Sentiment analysis completed: 23 results
+2025-11-02 16:43:05,530 - simple_integrated_pipeline - INFO - Analyzing results...
+2025-11-02 16:43:05,561 - simple_integrated_pipeline - INFO - Analytics completed
+2025-11-02 16:43:05,562 - simple_integrated_pipeline - INFO - Saving results...
+2025-11-02 16:43:05,576 - simple_integrated_pipeline - INFO - Detailed results saved to output/
+2025-11-02 16:43:05,578 - simple_integrated_pipeline - INFO - Analytics summary saved to output/
+2025-11-02 16:43:05,578 - simple_integrated_pipeline - INFO - Results saved successfully
+2025-11-02 16:43:05,580 - simple_integrated_pipeline - INFO - Pipeline completed successfully!
+2025-11-02 16:43:12,321 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-11-02 16:44:01,863 - simple_integrated_pipeline - INFO - Initializing Pipeline: pipeline_1762082041
+2025-11-02 16:44:01,863 - simple_integrated_pipeline - INFO - PySpark Available: True
+2025-11-02 16:44:01,864 - simple_integrated_pipeline - INFO - ML Available: True
+2025-11-02 16:44:01,864 - simple_integrated_pipeline - INFO - Starting Integrated Reddit Sentiment Analysis Pipeline
+2025-11-02 16:44:01,864 - simple_integrated_pipeline - INFO - ============================================================
+2025-11-02 16:44:01,864 - simple_integrated_pipeline - INFO - Attempting to initialize Spark...
+2025-11-02 16:44:07,748 - simple_integrated_pipeline - INFO - Spark initialized successfully
+2025-11-02 16:44:07,748 - simple_integrated_pipeline - INFO - Attempting to use existing analyzer.py model...
+2025-11-02 16:44:11,874 - simple_integrated_pipeline - INFO - Successfully loaded existing analyzer model
+2025-11-02 16:44:11,874 - simple_integrated_pipeline - INFO - Using existing Reddit data: comments.json
+2025-11-02 16:44:11,875 - simple_integrated_pipeline - INFO - Loading Reddit data...
+2025-11-02 16:44:11,875 - simple_integrated_pipeline - INFO - Loading: comments.json
+2025-11-02 16:44:11,879 - simple_integrated_pipeline - INFO - Loaded 23 comments
+2025-11-02 16:44:11,880 - simple_integrated_pipeline - INFO - Preprocessing data...
+2025-11-02 16:44:11,892 - simple_integrated_pipeline - INFO - Preprocessed 23 comments
+2025-11-02 16:44:11,892 - simple_integrated_pipeline - INFO - Performing sentiment analysis...
+2025-11-02 16:44:13,337 - simple_integrated_pipeline - INFO - Processed batch 1/3
+2025-11-02 16:44:14,219 - simple_integrated_pipeline - INFO - Processed batch 2/3
+2025-11-02 16:44:14,789 - simple_integrated_pipeline - INFO - Processed batch 3/3
+2025-11-02 16:44:14,792 - simple_integrated_pipeline - INFO - Sentiment analysis completed: 23 results
+2025-11-02 16:44:14,793 - simple_integrated_pipeline - INFO - Analyzing results...
+2025-11-02 16:44:14,814 - simple_integrated_pipeline - INFO - Analytics completed
+2025-11-02 16:44:14,815 - simple_integrated_pipeline - INFO - Saving results...
+2025-11-02 16:44:14,826 - simple_integrated_pipeline - INFO - Detailed results saved to output/
+2025-11-02 16:44:14,827 - simple_integrated_pipeline - INFO - Analytics summary saved to output/
+2025-11-02 16:44:14,828 - simple_integrated_pipeline - INFO - Results saved successfully
+2025-11-02 16:44:14,832 - simple_integrated_pipeline - INFO - Pipeline completed successfully!
+2025-11-02 16:44:15,301 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-11-02 16:45:00,230 - simple_integrated_pipeline - INFO - Initializing Pipeline: pipeline_1762082100
+2025-11-02 16:45:00,231 - simple_integrated_pipeline - INFO - PySpark Available: True
+2025-11-02 16:45:00,231 - simple_integrated_pipeline - INFO - ML Available: True
+2025-11-02 16:45:00,232 - simple_integrated_pipeline - INFO - Starting Integrated Reddit Sentiment Analysis Pipeline
+2025-11-02 16:45:00,232 - simple_integrated_pipeline - INFO - ============================================================
+2025-11-02 16:45:00,232 - simple_integrated_pipeline - INFO - Attempting to initialize Spark...
+2025-11-02 16:45:06,163 - simple_integrated_pipeline - INFO - Spark initialized successfully
+2025-11-02 16:45:06,164 - simple_integrated_pipeline - INFO - Attempting to use existing analyzer.py model...
+2025-11-02 16:45:10,221 - simple_integrated_pipeline - INFO - Successfully loaded existing analyzer model
+2025-11-02 16:45:10,222 - simple_integrated_pipeline - INFO - Using existing Reddit data: comments.json
+2025-11-02 16:45:10,222 - simple_integrated_pipeline - INFO - Loading Reddit data...
+2025-11-02 16:45:10,222 - simple_integrated_pipeline - INFO - Loading: comments.json
+2025-11-02 16:45:10,226 - simple_integrated_pipeline - INFO - Loaded 23 comments
+2025-11-02 16:45:10,227 - simple_integrated_pipeline - INFO - Preprocessing data...
+2025-11-02 16:45:10,237 - simple_integrated_pipeline - INFO - Preprocessed 23 comments
+2025-11-02 16:45:10,238 - simple_integrated_pipeline - INFO - Performing sentiment analysis...
+2025-11-02 16:45:11,714 - simple_integrated_pipeline - INFO - Processed batch 1/3
+2025-11-02 16:45:12,780 - simple_integrated_pipeline - INFO - Processed batch 2/3
+2025-11-02 16:45:13,419 - simple_integrated_pipeline - INFO - Processed batch 3/3
+2025-11-02 16:45:13,421 - simple_integrated_pipeline - INFO - Sentiment analysis completed: 23 results
+2025-11-02 16:45:13,422 - simple_integrated_pipeline - INFO - Analyzing results...
+2025-11-02 16:45:13,439 - simple_integrated_pipeline - INFO - Analytics completed
+2025-11-02 16:45:13,439 - simple_integrated_pipeline - INFO - Saving results...
+2025-11-02 16:45:13,448 - simple_integrated_pipeline - INFO - Detailed results saved to output/
+2025-11-02 16:45:13,452 - simple_integrated_pipeline - INFO - Analytics summary saved to output/
+2025-11-02 16:45:13,452 - simple_integrated_pipeline - INFO - Results saved successfully
+2025-11-02 16:45:13,455 - simple_integrated_pipeline - INFO - Pipeline completed successfully!
+2025-11-02 16:45:13,746 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-11-02 16:48:54,552 - simple_integrated_pipeline - INFO - Initializing Pipeline: pipeline_1762082334
+2025-11-02 16:48:54,553 - simple_integrated_pipeline - INFO - PySpark Available: True
+2025-11-02 16:48:54,553 - simple_integrated_pipeline - INFO - ML Available: True
+2025-11-02 16:48:54,553 - simple_integrated_pipeline - INFO - Starting Integrated Reddit Sentiment Analysis Pipeline
+2025-11-02 16:48:54,553 - simple_integrated_pipeline - INFO - ============================================================
+2025-11-02 16:48:54,553 - simple_integrated_pipeline - INFO - Attempting to initialize Spark...
+2025-11-02 16:49:00,990 - simple_integrated_pipeline - INFO - Spark initialized successfully
+2025-11-02 16:49:00,990 - simple_integrated_pipeline - INFO - Attempting to use existing analyzer.py model...
+2025-11-02 16:49:06,039 - simple_integrated_pipeline - INFO - Successfully loaded existing analyzer model
+2025-11-02 16:49:06,039 - simple_integrated_pipeline - INFO - Using existing Reddit data: comments.json
+2025-11-02 16:49:06,040 - simple_integrated_pipeline - INFO - Loading Reddit data...
+2025-11-02 16:49:06,040 - simple_integrated_pipeline - INFO - Loading: comments.json
+2025-11-02 16:49:06,049 - simple_integrated_pipeline - INFO - Loaded 23 comments
+2025-11-02 16:49:06,049 - simple_integrated_pipeline - INFO - Preprocessing data...
+2025-11-02 16:49:06,068 - simple_integrated_pipeline - INFO - Preprocessed 23 comments
+2025-11-02 16:49:06,068 - simple_integrated_pipeline - INFO - Performing sentiment analysis...
+2025-11-02 16:49:08,036 - simple_integrated_pipeline - INFO - Processed batch 1/3
+2025-11-02 16:49:09,534 - simple_integrated_pipeline - INFO - Processed batch 2/3
+2025-11-02 16:49:10,367 - simple_integrated_pipeline - INFO - Processed batch 3/3
+2025-11-02 16:49:10,371 - simple_integrated_pipeline - INFO - Sentiment analysis completed: 23 results
+2025-11-02 16:49:10,371 - simple_integrated_pipeline - INFO - Analyzing results...
+2025-11-02 16:49:10,405 - simple_integrated_pipeline - INFO - Analytics completed
+2025-11-02 16:49:10,405 - simple_integrated_pipeline - INFO - Saving results...
+2025-11-02 16:49:10,423 - simple_integrated_pipeline - INFO - Detailed results saved to output/
+2025-11-02 16:49:10,427 - simple_integrated_pipeline - INFO - Analytics summary saved to output/
+2025-11-02 16:49:10,427 - simple_integrated_pipeline - INFO - Results saved successfully
+2025-11-02 16:49:10,432 - simple_integrated_pipeline - INFO - Pipeline completed successfully!
+2025-11-02 16:49:11,153 - py4j.clientserver - INFO - Closing down clientserver connection

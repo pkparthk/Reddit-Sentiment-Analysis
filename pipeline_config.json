@@ -1,0 +1,61 @@
+{
+  "input": {
+    "comments_file": "comments.json",
+    "batch_mode": false,
+    "batch_directory": "data/batch_comments"
+  },
+  "output": {
+    "processed_data_path": "data/processed_comments",
+    "sentiment_results_path": "data/sentiment_results",
+    "analytics_report_path": "data/analytics_report.json",
+    "dashboard_data_path": "data/dashboard_data.json",
+    "pipeline_stats_path": "data/pipeline_stats.json"
+  },
+  "processing": {
+    "batch_size": 1000,
+    "create_partitions": true,
+    "include_original_text": true,
+    "max_text_length": 5000,
+    "min_text_length": 10
+  },
+  "spark": {
+    "app_name": "RedditSentimentAnalysis",
+    "master": "local[*]",
+    "executor_memory": "2g",
+    "driver_memory": "1g",
+    "max_result_size": "1g",
+    "sql_adaptive_enabled": true,
+    "sql_adaptive_coalesce_partitions": true,
+    "serializer": "org.apache.spark.serializer.KryoSerializer"
+  },
+  "streaming": {
+    "input_path": "streaming_input/",
+    "output_path": "streaming_output/",
+    "checkpoint_path": "streaming_checkpoints/",
+    "trigger_interval": "30 seconds",
+    "max_files_per_trigger": 10
+  },
+  "sentiment_analysis": {
+    "model_name": "barissayil/bert-sentiment-analysis-sst",
+    "confidence_threshold": 0.5,
+    "batch_prediction_size": 100,
+    "enable_fallback": true
+  },
+  "analytics": {
+    "enable_clustering": true,
+    "clustering_k": 3,
+    "enable_correlation_analysis": true,
+    "enable_temporal_analysis": true,
+    "confidence_ranges": {
+      "high": 0.8,
+      "medium": 0.6,
+      "low": 0.4
+    }
+  },
+  "logging": {
+    "level": "INFO",
+    "log_file": "pipeline.log",
+    "max_file_size": "10MB",
+    "backup_count": 5
+  }
+}
