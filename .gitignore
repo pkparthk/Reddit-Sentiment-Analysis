@@ -1,0 +1,26 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+.env
+node_modules/
+
+output/
+
+comments.json
+comments.txt
+
+spark-defaults.conf
