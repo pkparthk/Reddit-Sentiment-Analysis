@@ -1,0 +1,12 @@
+# Reddit Sentiment Analysis - Configuration
+
+# Add your Reddit post URLs here (one per line)
+# Format: https://www.reddit.com/r/SUBREDDIT/comments/POST_ID/TITLE/
+
+# Current active URL (Indian Workplace discussion)
+https://www.reddit.com/r/IndianWorkplace/comments/1okm5yv/got_a_reality_check_in_the_interview/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+
+# Add more URLs below for batch processing:
+# https://www.reddit.com/r/programming/comments/.../
+# https://www.reddit.com/r/technology/comments/.../
+# https://www.reddit.com/r/MachineLearning/comments/.../
