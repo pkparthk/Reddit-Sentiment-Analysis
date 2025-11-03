@@ -27,3 +27,5 @@ comments.txt
 spark-defaults.conf
 pipeline.log
 pyspark_pipeline.log
+
+reddit_sentiment_results.json
